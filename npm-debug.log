@@ -1,0 +1,922 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'express' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /root/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/http/package.json
+verbose cache add [ 'express', null ]
+silly cache add: name, spec, args [ undefined, 'express', [ 'express', null ] ]
+verbose parsed url { pathname: 'express', path: 'express', href: 'express' }
+verbose addNamed [ 'express', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express', '', false ]
+verbose raw, before any munging express
+verbose url resolving [ 'http://registry.npmjs.org/', './express' ]
+verbose url resolved http://registry.npmjs.org/express
+verbose etag "8VQ2YNCG47RZS5LOT5K1EXW4L"
+http GET http://registry.npmjs.org/express
+http 304 http://registry.npmjs.org/express
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:43 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:43 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"8VQ2YNCG47RZS5LOT5K1EXW4L"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v36-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157363.117276,VS0,VE74',
+silly get cb     vary: 'Accept' } ]
+verbose etag express from cache
+silly name, range, hasData 2 [ 'express', '', true ]
+silly versions [ 'express',
+silly versions   [ '0.14.0',
+silly versions     '0.14.1',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '2.5.0',
+silly versions     '2.5.1',
+silly versions     '2.5.2',
+silly versions     '2.5.3',
+silly versions     '2.5.4',
+silly versions     '2.5.5',
+silly versions     '2.5.6',
+silly versions     '2.5.7',
+silly versions     '2.5.8',
+silly versions     '2.5.9',
+silly versions     '2.5.10',
+silly versions     '2.5.11',
+silly versions     '3.0.0',
+silly versions     '3.0.1',
+silly versions     '3.0.2',
+silly versions     '3.0.3',
+silly versions     '3.0.4',
+silly versions     '3.0.5',
+silly versions     '3.0.6',
+silly versions     '3.1.0',
+silly versions     '3.1.1',
+silly versions     '3.1.2',
+silly versions     '3.2.0',
+silly versions     '3.2.1',
+silly versions     '3.2.2',
+silly versions     '3.2.3',
+silly versions     '3.2.4',
+silly versions     '3.2.5',
+silly versions     '3.2.6',
+silly versions     '3.3.0',
+silly versions     '3.3.1',
+silly versions     '3.3.2',
+silly versions     '3.3.3',
+silly versions     '3.3.4',
+silly versions     '3.3.5',
+silly versions     '3.3.6',
+silly versions     '1.0.0-beta',
+silly versions     '1.0.0-beta2',
+silly versions     '1.0.0-rc',
+silly versions     '1.0.0-rc2',
+silly versions     '1.0.0-rc3',
+silly versions     '1.0.0-rc4',
+silly versions     '3.0.0-alpha1',
+silly versions     '3.0.0-alpha2',
+silly versions     '3.0.0-alpha3',
+silly versions     '3.0.0-alpha4',
+silly versions     '3.0.0-alpha5',
+silly versions     '3.0.0-beta1',
+silly versions     '3.0.0-beta2',
+silly versions     '3.0.0-beta3',
+silly versions     '3.0.0-beta4',
+silly versions     '3.0.0-beta6',
+silly versions     '3.0.0-beta7',
+silly versions     '3.0.0-rc1',
+silly versions     '3.0.0-rc2',
+silly versions     '3.0.0-rc3',
+silly versions     '3.0.0-rc4',
+silly versions     '3.0.0-rc5',
+silly versions     '3.3.7',
+silly versions     '3.3.8',
+silly versions     '3.4.0',
+silly versions     '3.4.1',
+silly versions     '3.4.2',
+silly versions     '3.4.3',
+silly versions     '3.4.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '0b63ae626c96b71b78d13dfce079c10351635a86',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-3.4.4.tgz' } ]
+verbose caching /root/.npm/express/3.4.4/package/package.json
+verbose loadDefaults express@3.4.4
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '3.4.4',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: 
+silly resolved      { connect: '2.11.0',
+silly resolved        commander: '1.3.2',
+silly resolved        'range-parser': '0.0.4',
+silly resolved        mkdirp: '0.3.5',
+silly resolved        cookie: '0.1.0',
+silly resolved        'buffer-crc32': '0.2.1',
+silly resolved        fresh: '0.2.0',
+silly resolved        methods: '0.1.0',
+silly resolved        send: '0.1.4',
+silly resolved        'cookie-signature': '1.0.1',
+silly resolved        debug: '*' },
+silly resolved     devDependencies: 
+silly resolved      { ejs: '*',
+silly resolved        mocha: '*',
+silly resolved        jade: '0.30.0',
+silly resolved        hjs: '*',
+silly resolved        stylus: '*',
+silly resolved        should: '2',
+silly resolved        'connect-redis': '*',
+silly resolved        marked: '*',
+silly resolved        supertest: '0.8.1 - 1' },
+silly resolved     keywords: 
+silly resolved      [ 'express',
+silly resolved        'framework',
+silly resolved        'sinatra',
+silly resolved        'web',
+silly resolved        'rest',
+silly resolved        'restful',
+silly resolved        'router',
+silly resolved        'app',
+silly resolved        'api' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'express@3.4.4',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'express' } ]
+info into /home/kite/Dropbox/private/programacao/html/doubleLink express@3.4.4
+info installOne express@3.4.4
+verbose from cache /root/.npm/express/3.4.4/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm'
+verbose mkdir done: /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm 755
+verbose unpack_ uid, gid [ 0, 0 ]
+verbose unpackTarget /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/.travis.yml
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/package.json
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/.npmignore
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/Makefile
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/Readme.md
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/History.md
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/LICENSE
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/index.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/bin
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/bin/express
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/request.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/middleware.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/application.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/view.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/express.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/utils.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/response.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/router
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/router/route.js
+silly asyncMap in gTP /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package/lib/router/index.js
+verbose gunzed /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package
+verbose rm'ed /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express
+verbose renamed [ '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/___express.npm/package',
+verbose renamed   '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express' ]
+verbose caching /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/package.json
+verbose loadDefaults express@3.4.4
+info preinstall express@3.4.4
+verbose from cache /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'connect@2.11.0', null ]
+silly cache add: name, spec, args [ undefined, 'connect@2.11.0', [ 'connect@2.11.0', null ] ]
+verbose parsed url { pathname: 'connect@2.11.0',
+verbose parsed url   path: 'connect@2.11.0',
+verbose parsed url   href: 'connect@2.11.0' }
+silly cache add: name, spec, args [ 'connect', '2.11.0', [ 'connect', '2.11.0' ] ]
+verbose parsed url { pathname: '2.11.0', path: '2.11.0', href: '2.11.0' }
+verbose addNamed [ 'connect', '2.11.0' ]
+verbose addNamed [ '2.11.0', '2.11.0' ]
+verbose cache add [ 'commander@1.3.2', null ]
+silly cache add: name, spec, args [ undefined, 'commander@1.3.2', [ 'commander@1.3.2', null ] ]
+verbose parsed url { pathname: 'commander@1.3.2',
+verbose parsed url   path: 'commander@1.3.2',
+verbose parsed url   href: 'commander@1.3.2' }
+silly cache add: name, spec, args [ 'commander', '1.3.2', [ 'commander', '1.3.2' ] ]
+verbose parsed url { pathname: '1.3.2', path: '1.3.2', href: '1.3.2' }
+verbose addNamed [ 'commander', '1.3.2' ]
+verbose addNamed [ '1.3.2', '1.3.2' ]
+verbose cache add [ 'range-parser@0.0.4', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'range-parser@0.0.4',
+silly cache add: name, spec, args   [ 'range-parser@0.0.4', null ] ]
+verbose parsed url { pathname: 'range-parser@0.0.4',
+verbose parsed url   path: 'range-parser@0.0.4',
+verbose parsed url   href: 'range-parser@0.0.4' }
+silly cache add: name, spec, args [ 'range-parser', '0.0.4', [ 'range-parser', '0.0.4' ] ]
+verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+verbose addNamed [ 'range-parser', '0.0.4' ]
+verbose addNamed [ '0.0.4', '0.0.4' ]
+verbose cache add [ 'mkdirp@0.3.5', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@0.3.5', [ 'mkdirp@0.3.5', null ] ]
+verbose parsed url { pathname: 'mkdirp@0.3.5',
+verbose parsed url   path: 'mkdirp@0.3.5',
+verbose parsed url   href: 'mkdirp@0.3.5' }
+silly cache add: name, spec, args [ 'mkdirp', '0.3.5', [ 'mkdirp', '0.3.5' ] ]
+verbose parsed url { pathname: '0.3.5', path: '0.3.5', href: '0.3.5' }
+verbose addNamed [ 'mkdirp', '0.3.5' ]
+verbose addNamed [ '0.3.5', '0.3.5' ]
+verbose cache add [ 'cookie@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'cookie@0.1.0', [ 'cookie@0.1.0', null ] ]
+verbose parsed url { pathname: 'cookie@0.1.0',
+verbose parsed url   path: 'cookie@0.1.0',
+verbose parsed url   href: 'cookie@0.1.0' }
+silly cache add: name, spec, args [ 'cookie', '0.1.0', [ 'cookie', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'cookie', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose cache add [ 'buffer-crc32@0.2.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'buffer-crc32@0.2.1',
+silly cache add: name, spec, args   [ 'buffer-crc32@0.2.1', null ] ]
+verbose parsed url { pathname: 'buffer-crc32@0.2.1',
+verbose parsed url   path: 'buffer-crc32@0.2.1',
+verbose parsed url   href: 'buffer-crc32@0.2.1' }
+silly cache add: name, spec, args [ 'buffer-crc32', '0.2.1', [ 'buffer-crc32', '0.2.1' ] ]
+verbose parsed url { pathname: '0.2.1', path: '0.2.1', href: '0.2.1' }
+verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+verbose addNamed [ '0.2.1', '0.2.1' ]
+verbose cache add [ 'fresh@0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'fresh@0.2.0', [ 'fresh@0.2.0', null ] ]
+verbose parsed url { pathname: 'fresh@0.2.0',
+verbose parsed url   path: 'fresh@0.2.0',
+verbose parsed url   href: 'fresh@0.2.0' }
+silly cache add: name, spec, args [ 'fresh', '0.2.0', [ 'fresh', '0.2.0' ] ]
+verbose parsed url { pathname: '0.2.0', path: '0.2.0', href: '0.2.0' }
+verbose addNamed [ 'fresh', '0.2.0' ]
+verbose addNamed [ '0.2.0', '0.2.0' ]
+verbose cache add [ 'methods@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'methods@0.1.0', [ 'methods@0.1.0', null ] ]
+verbose parsed url { pathname: 'methods@0.1.0',
+verbose parsed url   path: 'methods@0.1.0',
+verbose parsed url   href: 'methods@0.1.0' }
+silly cache add: name, spec, args [ 'methods', '0.1.0', [ 'methods', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'methods', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose cache add [ 'send@0.1.4', null ]
+silly cache add: name, spec, args [ undefined, 'send@0.1.4', [ 'send@0.1.4', null ] ]
+verbose parsed url { pathname: 'send@0.1.4',
+verbose parsed url   path: 'send@0.1.4',
+verbose parsed url   href: 'send@0.1.4' }
+silly cache add: name, spec, args [ 'send', '0.1.4', [ 'send', '0.1.4' ] ]
+verbose parsed url { pathname: '0.1.4', path: '0.1.4', href: '0.1.4' }
+verbose addNamed [ 'send', '0.1.4' ]
+verbose addNamed [ '0.1.4', '0.1.4' ]
+verbose cache add [ 'cookie-signature@1.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'cookie-signature@1.0.1',
+silly cache add: name, spec, args   [ 'cookie-signature@1.0.1', null ] ]
+verbose parsed url { pathname: 'cookie-signature@1.0.1',
+verbose parsed url   path: 'cookie-signature@1.0.1',
+verbose parsed url   href: 'cookie-signature@1.0.1' }
+silly cache add: name, spec, args [ 'cookie-signature', '1.0.1', [ 'cookie-signature', '1.0.1' ] ]
+verbose parsed url { pathname: '1.0.1', path: '1.0.1', href: '1.0.1' }
+verbose addNamed [ 'cookie-signature', '1.0.1' ]
+verbose addNamed [ '1.0.1', '1.0.1' ]
+verbose cache add [ 'debug@*', null ]
+silly cache add: name, spec, args [ undefined, 'debug@*', [ 'debug@*', null ] ]
+verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+silly cache add: name, spec, args [ 'debug', '*', [ 'debug', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'debug', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'debug', '', false ]
+verbose raw, before any munging connect/2.11.0
+verbose url resolving [ 'http://registry.npmjs.org/', './connect/2.11.0' ]
+verbose url resolved http://registry.npmjs.org/connect/2.11.0
+verbose etag "9LXOBI4XN66OWX40728AGB33A"
+http GET http://registry.npmjs.org/connect/2.11.0
+verbose raw, before any munging range-parser/0.0.4
+verbose url resolving [ 'http://registry.npmjs.org/', './range-parser/0.0.4' ]
+verbose url resolved http://registry.npmjs.org/range-parser/0.0.4
+verbose etag "D9RP9ACBJJ5Z0JXIRGO5SS9ZL"
+http GET http://registry.npmjs.org/range-parser/0.0.4
+verbose raw, before any munging mkdirp/0.3.5
+verbose url resolving [ 'http://registry.npmjs.org/', './mkdirp/0.3.5' ]
+verbose url resolved http://registry.npmjs.org/mkdirp/0.3.5
+verbose etag "ZX76IOCGNQ0Y4AWM9E9SZVM7"
+http GET http://registry.npmjs.org/mkdirp/0.3.5
+verbose raw, before any munging cookie/0.1.0
+verbose url resolving [ 'http://registry.npmjs.org/', './cookie/0.1.0' ]
+verbose url resolved http://registry.npmjs.org/cookie/0.1.0
+verbose etag "77IHYJSXLYWTCM6QNU3G08HZ0"
+http GET http://registry.npmjs.org/cookie/0.1.0
+verbose raw, before any munging buffer-crc32/0.2.1
+verbose url resolving [ 'http://registry.npmjs.org/', './buffer-crc32/0.2.1' ]
+verbose url resolved http://registry.npmjs.org/buffer-crc32/0.2.1
+verbose etag "AL1Z0BZDAY2SP0L2IUDLDNGE5"
+http GET http://registry.npmjs.org/buffer-crc32/0.2.1
+verbose raw, before any munging methods/0.1.0
+verbose url resolving [ 'http://registry.npmjs.org/', './methods/0.1.0' ]
+verbose url resolved http://registry.npmjs.org/methods/0.1.0
+verbose etag "6APMFC5X7H2FLK4DM8JIDYRTP"
+http GET http://registry.npmjs.org/methods/0.1.0
+verbose raw, before any munging fresh/0.2.0
+verbose url resolving [ 'http://registry.npmjs.org/', './fresh/0.2.0' ]
+verbose url resolved http://registry.npmjs.org/fresh/0.2.0
+verbose etag "C06C3B7RXO8AN0HWX2HI4YI58"
+http GET http://registry.npmjs.org/fresh/0.2.0
+verbose raw, before any munging commander/1.3.2
+verbose url resolving [ 'http://registry.npmjs.org/', './commander/1.3.2' ]
+verbose url resolved http://registry.npmjs.org/commander/1.3.2
+verbose etag "6AKDBJ08MK934OOHLX75EGZSF"
+http GET http://registry.npmjs.org/commander/1.3.2
+verbose raw, before any munging debug
+verbose url resolving [ 'http://registry.npmjs.org/', './debug' ]
+verbose url resolved http://registry.npmjs.org/debug
+verbose etag "6PDGK8APMFSZVOUP3BEZ4R3UT"
+http GET http://registry.npmjs.org/debug
+verbose raw, before any munging send/0.1.4
+verbose url resolving [ 'http://registry.npmjs.org/', './send/0.1.4' ]
+verbose url resolved http://registry.npmjs.org/send/0.1.4
+verbose etag "7W4V1FGKOW3M9AMUFP1SPZVBV"
+http GET http://registry.npmjs.org/send/0.1.4
+verbose raw, before any munging cookie-signature/1.0.1
+verbose url resolving [ 'http://registry.npmjs.org/', './cookie-signature/1.0.1' ]
+verbose url resolved http://registry.npmjs.org/cookie-signature/1.0.1
+verbose etag "5M0XUGDXHBSIXMD8A5VBX8YID"
+http GET http://registry.npmjs.org/cookie-signature/1.0.1
+http 304 http://registry.npmjs.org/connect/2.11.0
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"9LXOBI4XN66OWX40728AGB33A"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v42-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.020570,VS0,VE0',
+silly get cb     vary: 'Accept' } ]
+verbose etag connect/2.11.0 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '9991ce09ff9b85d9ead27f9d41d0b2a2df2f9284',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-2.11.0.tgz' } ]
+http 304 http://registry.npmjs.org/range-parser/0.0.4
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Fri, 16 May 2014 09:47:00 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"D9RP9ACBJJ5Z0JXIRGO5SS9ZL"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v41-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '71710',
+silly get cb     'x-timer': 'S1401157364.026809,VS0,VE0',
+silly get cb     vary: 'Accept' } ]
+verbose etag range-parser/0.0.4 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: 'c0427ffef51c10acba0782a46c9602e744ff620b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz' } ]
+verbose caching /root/.npm/connect/2.11.0/package/package.json
+verbose loadDefaults connect@2.11.0
+http 304 http://registry.npmjs.org/cookie/0.1.0
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"77IHYJSXLYWTCM6QNU3G08HZ0"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v42-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.027716,VS0,VE74',
+silly get cb     vary: 'Accept' } ]
+verbose etag cookie/0.1.0 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '90eb469ddce905c866de687efc43131d8801f9d0',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz' } ]
+http 304 http://registry.npmjs.org/mkdirp/0.3.5
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"ZX76IOCGNQ0Y4AWM9E9SZVM7"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v44-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.027396,VS0,VE93',
+silly get cb     vary: 'Accept' } ]
+verbose etag mkdirp/0.3.5 from cache
+verbose caching /root/.npm/range-parser/0.0.4/package/package.json
+verbose loadDefaults range-parser@0.0.4
+verbose caching /root/.npm/cookie/0.1.0/package/package.json
+verbose loadDefaults cookie@0.1.0
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' } ]
+http 304 http://registry.npmjs.org/buffer-crc32/0.2.1
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"AL1Z0BZDAY2SP0L2IUDLDNGE5"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v37-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.048323,VS0,VE95',
+silly get cb     vary: 'Accept' } ]
+verbose etag buffer-crc32/0.2.1 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: 'be3e5382fc02b6d6324956ac1af98aa98b08534c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz' } ]
+http 304 http://registry.npmjs.org/methods/0.1.0
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:21:56 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"6APMFC5X7H2FLK4DM8JIDYRTP"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v42-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '2',
+silly get cb     'x-timer': 'S1401157364.167739,VS0,VE0',
+silly get cb     vary: 'Accept' } ]
+verbose etag methods/0.1.0 from cache
+verbose caching /root/.npm/mkdirp/0.3.5/package/package.json
+verbose loadDefaults mkdirp@0.3.5
+verbose caching /root/.npm/buffer-crc32/0.2.1/package/package.json
+verbose loadDefaults buffer-crc32@0.2.1
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '335d429eefd21b7bacf2e9c922a8d2bd14a30e4f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/methods/-/methods-0.1.0.tgz' } ]
+http 304 http://registry.npmjs.org/fresh/0.2.0
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"C06C3B7RXO8AN0HWX2HI4YI58"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v41-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.173475,VS0,VE12',
+silly get cb     vary: 'Accept' } ]
+verbose etag fresh/0.2.0 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: 'bfd9402cf3df12c4a4c310c79f99a3dde13d34a7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz' } ]
+verbose caching /root/.npm/methods/0.1.0/package/package.json
+verbose loadDefaults methods@0.1.0
+verbose caching /root/.npm/fresh/0.2.0/package/package.json
+verbose loadDefaults fresh@0.2.0
+http 304 http://registry.npmjs.org/debug
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"6PDGK8APMFSZVOUP3BEZ4R3UT"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v44-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.270019,VS0,VE6',
+silly get cb     vary: 'Accept' } ]
+verbose etag debug from cache
+silly name, range, hasData 2 [ 'debug', '', true ]
+silly versions [ 'debug',
+silly versions   [ '0.0.1',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.8.0',
+silly versions     '0.8.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130',
+verbose bin dist     tarball: 'http://registry.npmjs.org/debug/-/debug-0.8.1.tgz' } ]
+http 304 http://registry.npmjs.org/commander/1.3.2
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"6AKDBJ08MK934OOHLX75EGZSF"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v42-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.263930,VS0,VE15',
+silly get cb     vary: 'Accept' } ]
+verbose etag commander/1.3.2 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '8a8f30ec670a6fdd64af52f1914b907d79ead5b5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/commander/-/commander-1.3.2.tgz' } ]
+http 304 http://registry.npmjs.org/send/0.1.4
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:12 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"7W4V1FGKOW3M9AMUFP1SPZVBV"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v37-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '3',
+silly get cb     'x-timer': 'S1401157364.294904,VS0,VE0',
+silly get cb     vary: 'Accept' } ]
+verbose etag send/0.1.4 from cache
+verbose caching /root/.npm/commander/1.3.2/package/package.json
+verbose loadDefaults commander@1.3.2
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: 'be70d8d1be01de61821af13780b50345a4f71abd',
+verbose bin dist     tarball: 'http://registry.npmjs.org/send/-/send-0.1.4.tgz' } ]
+verbose caching /root/.npm/send/0.1.4/package/package.json
+verbose loadDefaults send@0.1.4
+verbose caching /root/.npm/debug/0.8.1/package/package.json
+verbose loadDefaults debug@0.8.1
+http 304 http://registry.npmjs.org/cookie-signature/1.0.1
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 27 May 2014 02:22:44 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"5M0XUGDXHBSIXMD8A5VBX8YID"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-v42-ASH',
+silly get cb     'x-cache': 'HIT',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1401157364.314981,VS0,VE94',
+silly get cb     vary: 'Accept' } ]
+verbose etag cookie-signature/1.0.1 from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.5.0-49-generic',
+verbose bin dist   { shasum: '44e072148af01e6e8e24afbf12690d68ae698ecb',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz' } ]
+verbose caching /root/.npm/cookie-signature/1.0.1/package/package.json
+verbose loadDefaults cookie-signature@1.0.1
+silly resolved [ { name: 'connect',
+silly resolved     version: '2.11.0',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: 
+silly resolved      { qs: '0.6.5',
+silly resolved        'cookie-signature': '1.0.1',
+silly resolved        'buffer-crc32': '0.2.1',
+silly resolved        cookie: '0.1.0',
+silly resolved        send: '0.1.4',
+silly resolved        bytes: '0.2.1',
+silly resolved        fresh: '0.2.0',
+silly resolved        pause: '0.0.1',
+silly resolved        uid2: '0.0.3',
+silly resolved        debug: '*',
+silly resolved        methods: '0.0.1',
+silly resolved        'raw-body': '0.0.3',
+silly resolved        negotiator: '0.3.0',
+silly resolved        multiparty: '2.2.0' },
+silly resolved     devDependencies: { should: '>= 2.0.0', mocha: '*', jade: '*', dox: '*' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://raw.github.com/senchalabs/connect/master/LICENSE' } ],
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.8.0' },
+silly resolved     scripts: { test: 'make' },
+silly resolved     _id: 'connect@2.11.0',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'connect@2.11.0' },
+silly resolved   { name: 'range-parser',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     description: 'Range header field string parser',
+silly resolved     version: '0.0.4',
+silly resolved     main: 'index.js',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     _id: 'range-parser@0.0.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'range-parser@0.0.4' },
+silly resolved   { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+silly resolved     name: 'cookie',
+silly resolved     description: 'cookie parsing and serialization',
+silly resolved     version: '0.1.0',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/shtylman/node-cookie.git' },
+silly resolved     keywords: [ 'cookie', 'cookies' ],
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'mocha' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '1.x.x' },
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'cookie@0.1.0',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'cookie@0.1.0' },
+silly resolved   { name: 'mkdirp',
+silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+silly resolved     version: '0.3.5',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index',
+silly resolved     keywords: [ 'mkdir', 'directory' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-mkdirp.git' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     devDependencies: { tap: '~0.4.0' },
+silly resolved     license: 'MIT',
+silly resolved     _id: 'mkdirp@0.3.5',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'mkdirp@0.3.5' },
+silly resolved   { author: 
+silly resolved      { name: 'Brian J. Brennan',
+silly resolved        email: 'brianloveswords@gmail.com',
+silly resolved        url: 'http://bjb.io' },
+silly resolved     name: 'buffer-crc32',
+silly resolved     description: 'A pure javascript CRC32 algorithm that plays nice with binary data',
+silly resolved     version: '0.2.1',
+silly resolved     contributors: [ { name: 'Vladimir Kuznetsov' } ],
+silly resolved     homepage: 'https://github.com/brianloveswords/buffer-crc32',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/brianloveswords/buffer-crc32.git' },
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: './node_modules/.bin/tap tests/*.test.js' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { tap: '~0.2.5' },
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'buffer-crc32@0.2.1',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'buffer-crc32@0.2.1' },
+silly resolved   { name: 'methods',
+silly resolved     version: '0.1.0',
+silly resolved     description: 'HTTP methods that node supports',
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+silly resolved     keywords: [ 'http', 'methods' ],
+silly resolved     author: { name: 'TJ Holowaychuk' },
+silly resolved     license: 'MIT',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/node-methods.git' },
+silly resolved     _id: 'methods@0.1.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'methods@0.1.0' },
+silly resolved   { name: 'fresh',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     description: 'HTTP response freshness testing',
+silly resolved     version: '0.2.0',
+silly resolved     main: 'index.js',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/node-fresh.git' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     _id: 'fresh@0.2.0',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'fresh@0.2.0' },
+silly resolved   { name: 'commander',
+silly resolved     version: '1.3.2',
+silly resolved     description: 'the complete solution for node.js command-line programs',
+silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/commander.js.git' },
+silly resolved     dependencies: { keypress: '0.1.x' },
+silly resolved     devDependencies: { should: '>= 0.0.1' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.6.x' },
+silly resolved     _id: 'commander@1.3.2',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'commander@1.3.2' },
+silly resolved   { name: 'send',
+silly resolved     version: '0.1.4',
+silly resolved     description: 'Better streaming static file server with Range and conditional-GET support',
+silly resolved     keywords: [ 'static', 'file', 'server' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: 
+silly resolved      { debug: '*',
+silly resolved        mime: '~1.2.9',
+silly resolved        fresh: '0.2.0',
+silly resolved        'range-parser': '0.0.4' },
+silly resolved     devDependencies: { mocha: '*', should: '*', supertest: '0.0.1', connect: '2.x' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/send.git' },
+silly resolved     main: 'index',
+silly resolved     _id: 'send@0.1.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'send@0.1.4' },
+silly resolved   { name: 'debug',
+silly resolved     version: '0.8.1',
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+silly resolved     description: 'small debugging utility',
+silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*' },
+silly resolved     main: 'lib/debug.js',
+silly resolved     browser: './debug.js',
+silly resolved     engines: { node: '*' },
+silly resolved     files: [ 'lib/debug.js', 'debug.js' ],
+silly resolved     component: { scripts: { 'debug/index.js': 'debug.js' } },
+silly resolved     _id: 'debug@0.8.1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'debug@*' },
+silly resolved   { name: 'cookie-signature',
+silly resolved     version: '1.0.1',
+silly resolved     description: 'Sign and unsign cookies',
+silly resolved     keywords: [ 'cookie', 'sign', 'unsign' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     main: 'index',
+silly resolved     _id: 'cookie-signature@1.0.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'cookie-signature@1.0.1' } ]
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express connect@2.11.0
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express range-parser@0.0.4
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express cookie@0.1.0
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express mkdirp@0.3.5
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express buffer-crc32@0.2.1
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express methods@0.1.0
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express fresh@0.2.0
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express commander@1.3.2
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express send@0.1.4
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express debug@0.8.1
+info into /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express cookie-signature@1.0.1
+info installOne connect@2.11.0
+verbose installOne cb connect@2.11.0
+verbose about to build /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express
+ERR! error installing express@3.4.4
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express
+verbose from cache /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/package.json
+info preuninstall express@3.4.4
+info installOne range-parser@0.0.4
+info installOne cookie@0.1.0
+info installOne mkdirp@0.3.5
+info installOne buffer-crc32@0.2.1
+info installOne methods@0.1.0
+info installOne fresh@0.2.0
+info installOne commander@1.3.2
+info installOne send@0.1.4
+info installOne debug@0.8.1
+info installOne cookie-signature@1.0.1
+verbose from cache /root/.npm/range-parser/0.0.4/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/range-parser
+verbose from cache /root/.npm/cookie/0.1.0/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/cookie
+verbose from cache /root/.npm/mkdirp/0.3.5/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/mkdirp
+verbose from cache /root/.npm/buffer-crc32/0.2.1/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/buffer-crc32
+verbose from cache /root/.npm/methods/0.1.0/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/methods
+verbose from cache /root/.npm/fresh/0.2.0/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/fresh
+verbose from cache /root/.npm/commander/1.3.2/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/commander
+verbose from cache /root/.npm/send/0.1.4/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/send
+verbose from cache /root/.npm/debug/0.8.1/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/debug
+verbose from cache /root/.npm/cookie-signature/1.0.1/package/package.json
+info unbuild /home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules/cookie-signature
+info uninstall express@3.4.4
+verbose unbuild express@3.4.4 [ true,
+verbose unbuild express@3.4.4   '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules',
+verbose unbuild express@3.4.4   '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules' ]
+verbose binRoot [ '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/.bin',
+verbose binRoot   { express: './bin/express' } ]
+info postuninstall express@3.4.4
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express/node_modules'
+ERR! error rolling back express@3.4.4 Error: UNKNOWN, unknown error '/home/kite/Dropbox/private/programacao/html/doubleLink/node_modules/express'
+verbose installOne cb express@3.4.4
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: connect@2.11.0
+ERR! Required: {"node":">= 0.8.0"}
+ERR! Actual:   {"npm":"1.1.4","node":"0.6.12"}
+ERR! 
+ERR! System Linux 3.5.0-49-generic
+ERR! command "node" "/usr/bin/npm" "install" "express"
+ERR! cwd /home/kite/Dropbox/private/programacao/html/doubleLink
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]

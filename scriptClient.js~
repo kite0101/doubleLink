@@ -1,0 +1,11 @@
+$( document ).ready(function() {
+    $('a').bind('click', function (){
+        $a="2212"
+        //http://templth.wordpress.com/2011/06/07/manipulating-json-and-xml-with-node-js/
+        $.ajax(
+            {url: 'http://localhost:8081',timeout: 5000}
+        ).then(funtion(data){
+            alert(data);
+        });
+    });
+});
